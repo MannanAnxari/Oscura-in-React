@@ -1,0 +1,118 @@
+.joinCont {
+    width: 100vw;
+    height: 80vh;
+    background-color: #111111be;
+    background: linear-gradient(to right, #1f1f1f,#dc3845); 
+    padding: 2.5rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 100px 10px #000000, 0 0 30px 10px #1f1f1f;
+}
+.header .name{
+    color: #dc3845;
+}
+.joinContainer {}
+
+.joinContainer h1 {
+    text-align: center;
+}
+
+.joinContainer h1 span {
+    /* text-shadow: 0 0 40px #fff; */
+}
+
+.chatContainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.chatContainer .header {
+    /* border: 2px solid red; */
+    height: 3rem;
+}
+
+.chatContainer .row {
+    /* margin-top: 40%; */
+    position: absolute;
+    top: 85%;
+    width: 68%;
+    /* display: inline-block; */
+}
+
+.chatContainer .row .btn {
+    /* display: inline-block; */
+}
+
+.chatContainer .inputBox {
+    /* border: 1px solid red; */
+    /* margin: auto; */
+}
+
+.chatContainer .inputBox input {
+    /* width: 50%; */
+    border: 1px solid #111;
+}
+
+.chatBox {
+    border: 1px solid black;
+    height: 100%;
+    width: 97%;
+    border-radius: 1rem;
+    overflow-y: auto;
+
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+}
+
+.chatContainer .fa-paper-plane {
+    /* color: black; */
+    font-size: .75rem;
+    transition: .3s;
+}
+
+.chatContainer button:hover .fa-paper-plane {
+    /* transform: scale(1.5); */
+    transform: translate(5px, -5px);
+}
+
+.header {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    /* border: 1px solid black; */
+    padding: .2rem;
+    border-radius: 50%;
+    width: 1.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 1.55rem;
+    margin-bottom: 1rem;
+    /* width: 50%; */
+    margin-top: 0;
+    /* float: left; */
+    position: absolute;
+    left: 35%;
+    /* top: 10%; */
+    transform: scale(2);
+    transition: .3s;
+    cursor: pointer;
+    color: #111;
+}
+.back-btn:hover{
+    background-color: #dc3545;
+    color: white;
+    left: 33.5%;
+}
+
+.header h2 {
+    margin: 0;
+    /* display: inline-block; */
+}

@@ -1,0 +1,39 @@
+.msgBox {
+    /* border: 1px solid red; */
+    background-color: gainsboro;
+    max-width: 60%;
+    width: auto;
+    padding: .5rem;
+    padding: .5rem 1.2rem;
+    margin: .5vmax 0;
+    border-radius: 0rem 1vmax 1vmax 0rem;
+    display: inline-block;
+    clear: both;
+    font-weight: 500;
+    /* color: white; */
+}
+.card-text .text-muted{
+    font-family: 'Courier New', Courier, monospace;
+    /* float: right; */
+}
+.lefttxt{
+    float: left;
+}
+.righttxt{
+    float: right;
+}
+.right {
+    float: right;
+    border-radius: 1rem 0vmax 0vmax 1rem;
+box-shadow: 5px 3px 10px #1f1f1f63;
+background: #1f1f1f31;
+color: #676767;
+}
+
+.left {
+    float: left;
+    background: #dc384650;
+    box-shadow: -5px 3px 10px #dc384650;
+    color: #1f1f1f;
+    border-radius: 0rem 1vmax 1vmax 0rem;
+}
